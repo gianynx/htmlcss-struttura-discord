@@ -35,6 +35,16 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
+.btn {
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.text_decoration {
+    text-decoration: none;
+    color: var(--color_li_nav);
+}
+
 /*CSS header*/
 
 header {
@@ -45,15 +55,15 @@ nav {
     padding-top: 2rem;
 }
 
-.text_decoration_a {
-    text-decoration: none;
-    color: var(--color_li_nav);
+.white_btn {
+    background-color: var(--primary_color);
+    color: var(--dark_test);
 }
 
 #hero {
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    height: 30rem;
+    min-height: 30rem;
     background-position: top;
 }
 
@@ -68,7 +78,7 @@ nav {
     margin-top: 7.5rem;
     line-height: 40px;
     text-align: center;
-    font-size: 20px;
+    font-size: 21px;
     color: var(--primary_color);
 }
 
