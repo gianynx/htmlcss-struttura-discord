@@ -53,7 +53,14 @@ nav {
 #hero {
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    height: 38rem;
+    background-position: top;
+    height: 25rem;
+}
+
+h1 {
+    color: var(--primary_color);
+    text-align: center;
+    margin-top: 10rem;
 }
 
 .align_center {
