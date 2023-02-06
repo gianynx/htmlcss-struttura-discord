@@ -37,7 +37,7 @@ body {
 
 .btn {
     padding: 5px 15px;
-    border-radius: 20px;
+    border-radius: 25px;
     border-style: none;
 }
 
@@ -81,6 +81,10 @@ nav button:hover {
     box-shadow: 3px 3px 3px;
 }
 
+.align_center {
+    align-content: center;
+}
+
 #hero {
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -103,8 +107,29 @@ nav button:hover {
     color: var(--primary_color);
 }
 
-.align_center {
-    align-content: center;
+.button_hero {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.button_hero button {
+    font-size: 20px;
+    padding: 20px 20px;
+}
+
+.button_white {
+    background-color: var(--primary_color);
+    color: var(--dark_test);
+}
+
+#down_arrow {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.button_dark {
+    background-color: var(--bg_footer);
+    color: var(--primary_color);
 }
 
 /*CSS main*/
