@@ -47,3 +47,7 @@
 .right {
     width: 40%;
 }
+
+.reverse {
+    flex-flow: row-reverse wrap;
+}
