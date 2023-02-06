@@ -19,8 +19,21 @@
     margin: 0 auto;
 }
 
+.d_flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
 /*CSS main*/
 
 .even {
     background-color: var(--bg_section);
+}
+
+/*CSS footer*/
+
+.footer_top ul {
+    list-style: none;
 }
