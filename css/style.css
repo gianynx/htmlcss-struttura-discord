@@ -5,3 +5,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --primary_color: #ffffff;
+    --bg_footer: #23272a;
+    --bg_section: #f6f6f6;
+    --dark_test: #000000;
+    --bg_header: #255ee9;
+}
