@@ -12,6 +12,7 @@
     --bg_section: #f6f6f6;
     --dark_test: #000000;
     --bg_header: #255ee9;
+    --color_li_nav: #faf9fc;
 }
 
 .container {
@@ -38,6 +39,15 @@ body {
 
 header {
     background-color: var(--bg_header);
+}
+
+nav {
+    padding-top: 2rem;
+}
+
+.text_decoration_a {
+    text-decoration: none;
+    color: var(--color_li_nav);
 }
 
 #hero {
