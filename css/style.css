@@ -18,3 +18,9 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+
+/*CSS main*/
+
+.even {
+    background-color: var(--bg_section);
+}
