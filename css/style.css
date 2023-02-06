@@ -36,8 +36,13 @@ body {
 
 /*CSS header*/
 
+header {
+    background-color: var(--bg_header);
+}
+
 #hero {
     background-image: url(../img/jumbo.png);
+    background-size: cover;
     height: 38rem;
 }
 
