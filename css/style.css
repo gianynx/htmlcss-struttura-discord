@@ -36,6 +36,11 @@ body {
 
 /*CSS header*/
 
+#hero {
+    background-image: url(../img/jumbo.png);
+    height: 38rem;
+}
+
 .align_center {
     align-content: center;
 }
