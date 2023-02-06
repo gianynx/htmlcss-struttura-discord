@@ -53,8 +53,8 @@ nav {
 #hero {
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    background-position: top;
     height: 25rem;
+    background-position: top;
 }
 
 h1 {
