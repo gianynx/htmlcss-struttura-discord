@@ -26,14 +26,12 @@
     align-content: flex-start;
 }
 
+.list_style {
+    list-style: none;
+}
+
 /*CSS main*/
 
 .even {
     background-color: var(--bg_section);
-}
-
-/*CSS footer*/
-
-.footer_top ul {
-    list-style: none;
 }
