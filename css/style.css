@@ -13,3 +13,8 @@
     --dark_test: #000000;
     --bg_header: #255ee9;
 }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
