@@ -19,6 +19,10 @@
     margin: 0 auto;
 }
 
+.list_style {
+    list-style: none;
+}
+
 .d_flex {
     display: flex;
     flex-flow: row wrap;
@@ -26,12 +30,20 @@
     align-content: flex-start;
 }
 
-.list_style {
-    list-style: none;
+.align_center {
+    align-content: center;
 }
 
 /*CSS main*/
 
 .even {
     background-color: var(--bg_section);
+}
+
+.left {
+    width: 60%;
+}
+
+.right {
+    width: 40%;
 }
