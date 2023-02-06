@@ -30,6 +30,12 @@
     align-content: flex-start;
 }
 
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/*CSS header*/
+
 .align_center {
     align-content: center;
 }
