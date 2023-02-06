@@ -38,6 +38,7 @@ body {
 .btn {
     padding: 5px 15px;
     border-radius: 20px;
+    border-style: none;
 }
 
 .text_decoration {
@@ -58,6 +59,10 @@ nav {
 .white_btn {
     background-color: var(--primary_color);
     color: var(--dark_test);
+}
+
+button > a {
+    text-decoration: none;
 }
 
 #hero {
