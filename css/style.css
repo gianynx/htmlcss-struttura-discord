@@ -46,6 +46,10 @@ body {
     color: var(--color_li_nav);
 }
 
+.debug {
+    border: 2px solid black;
+}
+
 /*CSS header*/
 
 header {
@@ -56,6 +60,10 @@ nav {
     padding-top: 2rem;
 }
 
+nav ul li:hover {
+    text-decoration: underline;
+}
+
 .white_btn {
     background-color: var(--primary_color);
     color: var(--dark_test);
@@ -63,6 +71,14 @@ nav {
 
 button > a {
     text-decoration: none;
+}
+
+nav button a:hover {
+    color: var(--bg_header);
+}
+
+nav button:hover {
+    box-shadow: 3px 3px 3px;
 }
 
 #hero {
